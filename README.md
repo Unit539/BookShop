@@ -1,5 +1,6 @@
 # BookShop
 Описание.
+
 База данных Книжный магазин (BookShop) содержит информацию о товаре и 
 сделках сети книжных магазинов.
 Книги, продаваемые в магазинах представлены в виде таблицы Книги (Books), в 
@@ -15,6 +16,7 @@
 таблицы Магазины (Shops) и Страны (Countries).
 
 Description.
+
 The BookShop database contains information about the product and
 transactions of the bookstore chain.
 Books sold in stores are presented in the form of a Book table (Books),
