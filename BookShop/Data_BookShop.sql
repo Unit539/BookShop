@@ -1,5 +1,4 @@
 --Data for the table Themes
---Данные для таблицы Themes
 SET IDENTITY_INSERT Themes ON;
 
 INSERT INTO Themes (Id, Name) VALUES (1, 'Horrors');
@@ -18,7 +17,6 @@ SET IDENTITY_INSERT Themes OFF;
 ---------------------------------------------------------
 
 --Data for the table Countries
---Данные для таблицы Countries
 
 SET IDENTITY_INSERT Countries ON;
 
@@ -37,7 +35,6 @@ SET IDENTITY_INSERT Countries OFF;
 -----------------------------------------------------------
 
 --Data for the table Authors
---Данные для таблицы Authors
 
 INSERT INTO Authors (Name, Surname, CountryId) VALUES ('Stephen', 'King', 1);
 INSERT INTO Authors (Name, Surname, CountryId) VALUES ('Bram', 'Stoker', 2);
@@ -63,7 +60,6 @@ INSERT INTO Authors (Name, Surname, CountryId) VALUES ('Cormac', 'McCarthy', 1);
 ------------------------------------------------------------------------------
 
 --Data for the table Books
---Данные для таблицы Books
 
 INSERT INTO Books (Name, Pages, Price, PublishDate, AuthorId, ThemeId) VALUES ('Shop of bad dreams', 544, 2000, '2023-01-10', 1, 1);
 INSERT INTO Books (Name, Pages, Price, PublishDate, AuthorId, ThemeId) VALUES ('Dracula', 640, 2500, '2010-06-07', 2, 1);
@@ -89,7 +85,6 @@ INSERT INTO Books (Name, Pages, Price, PublishDate, AuthorId, ThemeId) VALUES ('
 -----------------------------------------------------------------------
 
 --Data for the table Shops
---Данные для таблицы Shops
 
 INSERT INTO Shops (Name, CountryId) VALUES ('BookShop 1', 1);
 INSERT INTO Shops (Name, CountryId) VALUES ('BookShop 2', 2);
@@ -104,7 +99,6 @@ INSERT INTO Shops (Name, CountryId) VALUES ('BookShop 9', 9);
 -------------------------------------------------------------------------
 
 --Data for the table Sales
---Данные для таблицы Sales
 
 INSERT INTO Sales (Price, Quantity, SaleDate, BookId, ShopId) VALUES (2000, 130, '2023-05-23', 1, 1);
 INSERT INTO Sales (Price, Quantity, SaleDate, BookId, ShopId) VALUES (2500, 180, '2023-05-23', 2, 1);
